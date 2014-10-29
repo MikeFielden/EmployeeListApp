@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Mike Fielden Employee List App</title>
+	<link rel="stylesheet" href="min/core.css">
+</head>
+
+<body>
+
+	<header class="container">
+		<h1>Employee Listing</h1>
+		<p class="lead">Better than a todo app</p>
+	</header>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12 actions">
+				<a href="#" class="btn btn-lg btn-success btn-add">
+					<i class="fa fa-plus"></i>
+					Add Employee
+				</a>
+				<a href="#" class="btn btn-lg btn-primary btn-edit disabled">
+					<i class="fa fa-edit"></i>
+					Edit Employee
+				</a>
+				<a href="#" class="btn btn-lg btn-danger btn-remove disabled">
+					<i class="fa fa-trash-o"></i>
+					Remove Employee
+				</a>
+			</div>
+
+			<div class="col-lg-12">
+				<div class="well text-success">
+					<table class="table employees"></table>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script src="min/main.js"></script>
+
+</body>
+
+</html>
