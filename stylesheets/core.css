@@ -10823,15 +10823,20 @@ body {
 }
 
 /* line 47, ../sass/core.scss */
+.well {
+  color: black;
+}
+
+/* line 51, ../sass/core.scss */
 .modal {
   color: black;
 }
-/* line 50, ../sass/core.scss */
+/* line 54, ../sass/core.scss */
 .modal .fa-save {
   margin-right: 5px;
 }
 
-/* line 55, ../sass/core.scss */
+/* line 59, ../sass/core.scss */
 .actions {
   margin: 10px 0;
 }
